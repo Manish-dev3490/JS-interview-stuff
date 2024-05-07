@@ -34,9 +34,17 @@
 
 
 
-// Let const in javascript temporaral dead zone \
-console.log(b);
-let a=10;
+// Let const in javascript temporaral dead zone 
+// console.log(b);
+// let a=10;
+// console.log(a);
+
+// var b=10;
+
+
+// Relations between let const and var
+
+var a=10;
 console.log(a);
 
-var b=10;
+var a=100;
