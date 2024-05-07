@@ -51,5 +51,26 @@
 
 
 // Type error with const
-const a;
-a=10;
+// const a;
+// a=10;
+
+
+
+// Block scope
+
+// Example 1
+// {
+//     var a=10;
+// }
+// function printA(){
+//     console.log(a);
+// }
+// printA();
+
+
+// Example 2
+// {
+//     var a=10;
+//     let b=10;
+//     const c=10;
+// }
