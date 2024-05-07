@@ -74,3 +74,9 @@
 //     let b=10;
 //     const c=10;
 // }
+
+
+// Shadowing in Javascript
+// var a=10;
+// var a=undefined;
+// console.log(a);
