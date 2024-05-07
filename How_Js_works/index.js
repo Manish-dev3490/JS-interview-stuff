@@ -7,3 +7,13 @@
 // var squareOne=square(2);
 // var squaretwo=square(a);
 
+
+// just look at hoisiting
+console.log(a);
+getName();
+
+var a=10;
+function getName(){
+    console.log("namastey javascript");
+}
+
