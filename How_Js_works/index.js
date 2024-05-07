@@ -19,7 +19,6 @@
 
 
 // How Functions works in javascript scope and scope chaining and lexical enviorment 
-
 // function xyz(){
 // console.log(a);
 // function z(){
@@ -31,3 +30,13 @@
 // var a=10;
 // xyz();
 // console.log(a);
+
+
+
+
+// Let const in javascript temporaral dead zone \
+console.log(b);
+let a=10;
+console.log(a);
+
+var b=10;
