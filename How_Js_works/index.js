@@ -9,11 +9,25 @@
 
 
 // just look at hoisiting
-console.log(a);
-getName();
+// console.log(a);
+// getName();
 
-var a=10;
-function getName(){
-    console.log("namastey javascript");
-}
+// var a=10;
+// function getName(){
+//     console.log("namastey javascript");
+// }
 
+
+// How Functions works in javascript scope and scope chaining and lexical enviorment 
+
+// function xyz(){
+// console.log(a);
+// function z(){
+//     console.log(a);
+// }
+// z();
+// }
+
+// var a=10;
+// xyz();
+// console.log(a);
