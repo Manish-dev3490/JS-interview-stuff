@@ -44,7 +44,12 @@
 
 // Relations between let const and var
 
-var a=10;
-console.log(a);
+// var a=10;
+// console.log(a);
 
-var a=100;
+// var a=100;
+
+
+// Type error with const
+const a;
+a=10;
