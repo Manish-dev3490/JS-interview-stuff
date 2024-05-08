@@ -82,16 +82,33 @@
 // console.log(a);
 
 // Shadowing in Javascript with let
-let a=10
-{
-    let a=20;
-    var b=30;
-    const c=40;
-    console.log(a);
-    console.log(b);
-    console.log(c);
+// {
+//     let a=20;
+//     var b=30;
+//     const c=40;
+//     console.log(b);
+//     console.log(c);
 
 
-}
+// }
 
-console.log(a);
+// console.log(a);
+
+
+// Some practice for closurs
+
+// function a(){
+//     var b=1;
+
+//    return function bb(){
+//         function c(){
+//             console.log(b);
+//         }
+
+//         return c;
+//     }
+
+// }
+//  var aaaa=a();
+//  var bbb=aaaa();
+//  bbb();
