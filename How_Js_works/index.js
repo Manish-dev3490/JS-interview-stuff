@@ -3,7 +3,7 @@
 // function square(num){
 //     var answer=num*num;
 //     return answer;
-// } 
+// }
 // var squareOne=square(2);
 // var squaretwo=square(a);
 
@@ -18,7 +18,7 @@
 // }
 
 
-// How Functions works in javascript scope and scope chaining and lexical enviorment 
+// How Functions works in javascript scope and scope chaining and lexical enviorment
 // function xyz(){
 // console.log(a);
 // function z(){
@@ -34,7 +34,7 @@
 
 
 
-// Let const in javascript temporaral dead zone 
+// Let const in javascript temporaral dead zone
 // console.log(b);
 // let a=10;
 // console.log(a);
@@ -112,3 +112,14 @@
 //  var aaaa=a();
 //  var bbb=aaaa();
 //  bbb();
+
+// function aala(){
+//     let a=10;
+
+//    return function baba(){
+//         console.log(a);
+//     }
+// }
+
+// var chacha=aala();
+// chacha();
