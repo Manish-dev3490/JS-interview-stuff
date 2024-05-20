@@ -160,3 +160,28 @@
 //     }
 // }
 // outer()()()();
+
+// Higher order Functions 
+
+// const radius=[2,3,4,5];
+
+// const area=function (radius){
+//     return Math.PI*radius*radius
+// }
+
+// const diameter=function (radius){
+//     return 2 * radius
+// }
+
+//  Array.prototype.calculate=function (logic){
+//     const output=[];
+//     for (let index = 0; index < this.length; index++) {
+//         output.push(logic(this[index]))        
+//     }
+//     return output;
+// }
+
+//  console.log(radius.calculate(area));
+// //  console.log(radius.map(area))
+//  console.log(radius.calculate(area));
+
