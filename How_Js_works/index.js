@@ -214,3 +214,28 @@
     
 // });
  
+
+// const cart2=["samsung s52","activa 5g","jbl speaker"];
+
+// const createOrder=(cartItems)=>{
+//   return pr=new Promise(function(resolve,reject){
+//     if(!cartItems){
+//         reject("Your Cart is not available "+Error);
+//     }
+//     else {
+//         const orderId=12345;
+//         setTimeout(()=>{
+//         resolve(orderId)
+
+//         },3000)
+//     }
+
+//    })
+
+// }
+
+// createOrder(cart2).then((results)=>{
+//     console.log(results);
+// }).catch((err)=>{
+//     console.log(err);
+// })
