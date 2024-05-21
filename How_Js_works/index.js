@@ -233,9 +233,4 @@
 //    })
 
 // }
-
-// createOrder(cart2).then((results)=>{
-//     console.log(results);
-// }).catch((err)=>{
-//     console.log(err);
-// })
+// console.log(createOrder(cart2));
