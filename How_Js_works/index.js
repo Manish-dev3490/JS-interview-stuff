@@ -185,3 +185,32 @@
 // //  console.log(radius.map(area))
 //  console.log(radius.calculate(area));
 
+// creating the promises 
+
+// const cart=["shoes","jeans","mobiles"];
+
+// const createOrderid = function (cart){
+//     const pr= new Promise(function(resolve,reject){
+//         const orderId=12345;
+//         if(cart){
+//             resolve(orderId)
+//         }
+//         else {
+//             const error=new Error()
+//             reject(error)
+//         }
+
+
+
+//     })
+//     return pr;
+// } 
+
+// createOrderid(cart).then((result) => {
+//     console.log(result);
+    
+// }).catch((err) => {
+//     console.log(err);
+    
+// });
+ 
