@@ -208,12 +208,12 @@
 
 // createOrderid(cart).then((result) => {
 //     console.log(result);
-    
+
 // }).catch((err) => {
 //     console.log(err);
-    
+
 // });
- 
+
 
 // const cart2=["samsung s52","activa 5g","jbl speaker"];
 
@@ -234,3 +234,64 @@
 
 // }
 // console.log(createOrder(cart2));
+
+
+// Practicing Promise 
+const cart = ["jeans", "shorts", "shirts"];
+
+function createOrder(cart) {
+    const promise = new Promise(function (resolve, reject) {
+        const orderId = 12345;
+        if (cart.length>0) {
+            setTimeout(() => {
+                resolve({
+                    orderId:orderId,
+                    message:"You have created your order succesfully with this order  id "+orderId
+                })
+
+            }, 3000)
+        }
+        else {
+            const error = new Error
+            reject(error)
+        }
+
+    })
+    return promise;
+}
+
+function makePyment(orderid){
+    return payment = new Promise(function(resolve,reject){
+        if(orderid){        
+            setTimeout(()=>{
+                resolve({
+                    message:"your payment is successfully created",
+                    orderI:orderid
+                })
+            },6000) 
+
+        }
+
+        else {
+            const error = new Error
+
+            reject(error);
+        }
+    })
+}
+
+
+createOrder(cart).then((data)=>{
+    console.log(data.message);
+    return data;
+}).catch(()=>{
+    console.log("You have error in create order");
+}).
+then((data)=>{
+   return makePyment(data.orderId);
+}).then((paymentData)=>{
+    console.log(paymentData.message);
+
+}).catch(()=>{
+    console.log("you have error in make payment");
+})
