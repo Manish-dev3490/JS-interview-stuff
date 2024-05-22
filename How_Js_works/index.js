@@ -295,3 +295,33 @@
 // }).catch(()=>{
 //     console.log("you have error in make payment");
 // })
+
+
+
+// promise Apis promise.all/settled/race/any
+
+// const p1 = new Promise(function (resolve, reject) {
+//     setTimeout(() => {
+//         resolve("p1 reject")
+
+//     }, 5000)
+// })
+
+// const p2 = new Promise(function (resolve, reject) {
+//     setTimeout(() => {
+//         reject("p2 reject")
+
+//     }, 1000)
+// })
+
+// const p3 = new Promise(function (resolve, reject) {
+//     setTimeout(() => {
+//         resolve("p3 resolved")
+
+//     }, 3000)
+// })
+
+
+// Promise.all([p1, p2, p3]).then((response) => {
+//     console.log(response);
+// }).catch((err)=>console.log(err));
