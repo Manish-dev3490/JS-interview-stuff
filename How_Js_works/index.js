@@ -355,3 +355,25 @@
 //     console.log(response);
 // }).catch((err)=>console.log(err));
 
+
+// Practicing async and await
+
+// const p1=new Promise(function(resolve,reject){
+    
+//         resolve("p1 is resolved ")
+    
+// }) 
+
+// const p2=new Promise(function(resolve,reject){
+//     setTimeout(() => {
+//         resolve("p2 is resolved ")
+//     },8000);
+// }) 
+
+// function handlePromiseOldway(){
+//     p1.then((response)=>console.log(response)).
+//     then(()=> p2).then((gotp2)=>console.log(gotp2));
+
+//     console.log("i  am handling promise ");
+// }
+// handlePromiseOldway();
