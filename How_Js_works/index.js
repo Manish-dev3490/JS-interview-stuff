@@ -377,3 +377,25 @@
 //     console.log("i  am handling promise ");
 // }
 // handlePromiseOldway();
+
+
+// const p1=new Promise(function(resolve,reject) {
+//     setTimeout(() => {
+//         resolve("p1 is resolved ")
+//     }, 10000);
+// })
+
+// const p2=new Promise(function(resolve,reject) {
+//     setTimeout(() => {
+//         resolve("p2 is resolved ")
+//     }, 5000);
+// })
+
+// async function handlePromise(){
+//      const data= await p1;
+//      console.log(data);
+
+//      const data2=await p2;
+//      console.log(data2);
+// }
+// handlePromise()
