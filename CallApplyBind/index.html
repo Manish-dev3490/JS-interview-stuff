@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>call Apply Bind </title>
+</head>
+<body>
+    
+    <script>
+        let object1={
+            firstname:"manish",
+            secondname:"kumar",
+        }
+
+        let object2={
+            firstname:"khushi",
+            secondname:"satija"
+        }
+
+        // Now i want to use object1.printfullname method inside object2 for printfullname so object gives us three important  function to achieve this bhevaiour through call, apply and bind function
+
+        // call method
+        // object1.printfullname.call(object2,"delhi","west delhi")
+
+        // Apply methhd 
+        // object1.printfullname.apply(object2,["uttrakhand","dehradun"])
+
+
+        // i am also allowed to do this
+        // let printfullname = function(state,location){
+        //         console.log(this.firstname + " " +this.secondname,"from",state, "in",location);
+        //     }
+
+        //     printfullname.call(object1,"delhi","north delhii")
+    </script>
+</body>
+</html>
